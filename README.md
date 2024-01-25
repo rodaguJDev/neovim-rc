@@ -5,7 +5,7 @@ This file will explain each part of my [neovim](https://github.com/neovim/neovim
 + **W.I.P**
 
 # Plugins
-**Note: [lazy.nvim](https://github.com/folke/lazy.nvim) is used as the plugin manager**
+**Note: [lazy.nvim](https://github.com/folke/lazy.nvim) is used as the plugin manager**<br>
 Note2: Some plugins are disabled because I don't think I need them for now.
 + [telescope](https://github.com/nvim-telescope/telescope.nvim)
 + [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)

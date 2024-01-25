@@ -25,3 +25,6 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- Q doesn't work anyway
 vim.keymap.set("n", "Q", "<nop>")
+
+-- Quit vim quickly please
+vim.keymap.set({"n", "v"}, "ZQ", vim.cmd.quit)
