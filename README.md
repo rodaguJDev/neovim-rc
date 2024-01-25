@@ -6,15 +6,22 @@ This file will explain each part of my [neovim](https://github.com/neovim/neovim
 
 # Plugins
 **Note: [lazy.nvim](https://github.com/folke/lazy.nvim) is used as the plugin manager**
-+ [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-+ [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-+ [Harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
-+ [Mason](https://github.com/williamboman/mason.nvim)
-  - [Mason LSP-config](https://github.com/williamboman/mason-lspconfig.nvim)
-  - [Nvim LSP-config](https://github.com/neovim/nvim-lspconfig)
-+ ~~[Nvim Tree](https://github.com/nvim-tree/nvim-tree.lua)~~
-+ ~~[Lualine](https://github.com/nvim-lualine/lualine.nvim)~~
-+ ~~[Barbecue](https://github.com/utilyre/barbecue.nvim)~~
+Note2: Some plugins are disabled because I don't think I need them for now.
++ [telescope](https://github.com/nvim-telescope/telescope.nvim)
++ [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
++ [harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
++ [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+    - [mason](https://github.com/williamboman/mason.nvim)
+    - [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim)
+    - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+    - [cmp-vim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+    - [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
++ ~~[nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)~~
++ ~~[vim-fugitive](https://github.com/tpope/vim-fugitive)~~
++ ~~[lualine](https://github.com/nvim-lualine/lualine.nvim)~~
++ ~~[barbecue](https://github.com/utilyre/barbecue.nvim)~~
++ ~~[undotree](https://github.com/mbbill/undotree)~~
++ ~~[which-key](https://github.com/folke/which-key.nvim)~~
 
 # Themes
 + **[Tokyo Night](https://github.com/folke/tokyonight.nvim)** (default)

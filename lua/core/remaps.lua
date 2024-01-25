@@ -25,4 +25,3 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- Q doesn't work anyway
 vim.keymap.set("n", "Q", "<nop>")
-
