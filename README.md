@@ -2,7 +2,7 @@
 This file will explain each part of my [neovim](https://github.com/neovim/neovim) configuration (VimRC). This file should be included with the actual files (like a github repo)
 
 # Dependencies
-+ **W.I.P**
++ A C compiler in your path and libstdc++ installed [(Windows users please read this!)](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support).
 
 # Plugins
 **Note: [lazy.nvim](https://github.com/folke/lazy.nvim) is used as the plugin manager**<br>

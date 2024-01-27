@@ -38,7 +38,7 @@ end
 
 require("mason").setup()
 require("mason-lspconfig").setup({
-	ensure_installed = { "lua_ls" },
+	ensure_installed = { "lua_ls", "eslint", "html", "cssls", "emmet_language_server" },
     handlers = {
         default_lsp
     }
