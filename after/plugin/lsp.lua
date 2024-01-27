@@ -1,4 +1,3 @@
--- KEYBINDS
 vim.api.nvim_create_autocmd('LspAttach', {
 	group = vim.api.nvim_create_augroup('UserLspConfig', {}),
 	callback = function(ev)
@@ -30,21 +29,21 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 local lsp_capabilities = require('cmp_nvim_lsp').default_capabilities();
-local default_lsp = function(server)
-    require('lspconfig')[server].setup({
-        capabilities = lsp_capabilities,
-    })
-end
-
 require("mason").setup()
 require("mason-lspconfig").setup({
 	ensure_installed = { "lua_ls", "eslint", "html", "cssls", "emmet_language_server" },
     handlers = {
-        default_lsp
+        function(server)
+            require('lspconfig')[server].setup({
+                capabilities = lsp_capabilities,
+            })
+        end
     }
 })
 
+-- completion engine
 local cmp = require('cmp');
+require("luasnip.loaders.from_vscode").lazy_load();
 cmp.setup({
     snippet = {
         expand = function(args)
