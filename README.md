@@ -52,13 +52,6 @@ Note2: Some plugins are disabled because I don't think I need them for now.
 + `<leader>vr` - Variable References
 + `<leader>f` - Format file
 
-# Language Servers
-+ `lua_ls`
-
-# Future Plans
-1. Learn how to install [nvim_cmp](https://github.com/hrsh7th/nvim-cmp)
-  - The [LSP Zero](https://github.com/VonHeikemen/lsp-zero.nvim) repo also has a few details on how nvim-cmp works
-
 # Further Customization
 If you'd like to add more plugins, you can check out this repo: <br>
 https://github.com/rockerBOO/awesome-neovim#plugin-manager

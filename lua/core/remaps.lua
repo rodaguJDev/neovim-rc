@@ -16,9 +16,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
--- <leader>p pastes without overriding memory
-vim.keymap.set("x", "<leader>p", [["_dP]])
-
 -- <leader>y yanks to system register
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
@@ -28,3 +25,6 @@ vim.keymap.set("n", "Q", "<nop>")
 
 -- Quit vim quickly please
 vim.keymap.set({"n", "v"}, "ZQ", vim.cmd.quit)
+
+-- Delete without overriding memory
+vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
