@@ -16,7 +16,7 @@ Note2: Some plugins are disabled because I don't think I need them for now.
     - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
     - [cmp-vim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
     - [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
-+ ~~[nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)~~
++ [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 + ~~[vim-fugitive](https://github.com/tpope/vim-fugitive)~~
 + ~~[lualine](https://github.com/nvim-lualine/lualine.nvim)~~
 + ~~[barbecue](https://github.com/utilyre/barbecue.nvim)~~
