@@ -29,5 +29,5 @@ require("lazy").setup({
     {"L3MON4D3/LuaSnip"},
     {"saadparwaiz1/cmp_luasnip"},
     {"rafamadriz/friendly-snippets"},
-    {"nvim-tree/nvim-tree.lua"}
+    --{"nvim-tree/nvim-tree.lua"}
 })
