@@ -3,6 +3,7 @@ This file will explain each part of my [neovim](https://github.com/neovim/neovim
 
 # Dependencies
 + A C compiler in your path and libstdc++ installed [(Windows users please read this!)](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support).
++ Node.JS (NPM required for Mason plugins)
 
 # Plugins
 **Note: [lazy.nvim](https://github.com/folke/lazy.nvim) is used as the plugin manager**<br>
