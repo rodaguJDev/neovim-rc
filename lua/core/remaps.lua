@@ -1,5 +1,5 @@
 vim.g.mapleader = " ";
-vim.keymap.set("n", "<leader>pv", ":NvimTreeFindFileToggle<CR>");
+vim.keymap.set("n", "<leader>pv", ":Ex<CR>");
 
 -- Move entire line using K and J
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
