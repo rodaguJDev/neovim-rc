@@ -20,11 +20,12 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
+-- Delete without overriding memory
+vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
+
 -- Q doesn't work anyway
 vim.keymap.set("n", "Q", "<nop>")
 
 -- Quit vim quickly please
 vim.keymap.set({"n", "v"}, "ZQ", vim.cmd.quit)
 
--- Delete without overriding memory
-vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
