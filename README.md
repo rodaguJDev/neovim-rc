@@ -21,14 +21,14 @@ Some of the customizations include:
 You can read about keybinds for some plugins [here](https://www.lazyvim.org/keymaps)
 
 # Plugins
-## Auto Completion
+## Auto Completion (WIP)
 1. [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
     1. *take note of nvim-cmp numerous dependencies*
 2. [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
     1. [saadparwaiz1/cmp-luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
 3. [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
 
-## LSP
+## LSP (WIP)
 Language Servers for neovim, used by linters, formatters and nvim-cmp
 1. [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 2. [folke/neoconf.nvim](https://github.com/folke/neoconf.nvim)
@@ -36,7 +36,7 @@ Language Servers for neovim, used by linters, formatters and nvim-cmp
 4. [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
 5. [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
 
-## Linter and Formatter
+## Linter and Formatter (WIP)
 1. [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint)
 2. [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim)
 
@@ -44,28 +44,26 @@ Language Servers for neovim, used by linters, formatters and nvim-cmp
 Plugins for coding productivity outside auto completion
 1. [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 
 2. [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
-3. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
-4. [folke/trouble.nvim](https://github.com/folke/trouble.nvim)
-5. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-6. [echasnovski/mini.pairs](https://github.com/echasnovski/mini.pairs)
-7. [echasnovski/mini.comment](https://github.com/echasnovski/mini.comment)
-    1. [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
-8. [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround)
+3. [folke/trouble.nvim](https://github.com/folke/trouble.nvim)
+4. [echasnovski/mini.pairs](https://github.com/echasnovski/mini.pairs)
+5. [echasnovski/mini.comment](https://github.com/echasnovski/mini.comment)
+6. [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround)
     1. **NOTE: This plugin is very useful, but it might take a little while to get used to**
 
 ## Treesitter
 Generalized color highlighting
 1. [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-2. [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
-3. [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
-4. [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
+2. [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
+3. [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
 
-## UI 
-Plugins for a fancier UI
+## UI (WIP)
+Plugins for a fancier Editor
 1. [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify)
 2. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
-3. [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
-4. [folke/noice.nvim](https://github.com/folke/noice.nvim)
+3. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
+4. [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
+5. [folke/noice.nvim](https://github.com/folke/noice.nvim)
+6. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 
 ## Colorscheme
 Theme for neovim
@@ -77,3 +75,4 @@ Theme for neovim
 Plugins that could be added some day but were not deemed necessary
 1. [echasnovski/mini.indentscope](https://github.com/echasnovski/mini.indentscope)
 2. [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai)
+3. [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
