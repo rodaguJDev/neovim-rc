@@ -69,9 +69,9 @@ Plugins for a fancier UI
 
 ## Colorscheme
 Theme for neovim
-1. [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) *default*
+1. [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) 
 2. [catppuccin/nvim](https://github.com/catppuccin/nvim)
-3. [rose-pine/neovim](https://github.com/rose-pine/neovim)
+3. [rose-pine/neovim](https://github.com/rose-pine/neovim) *default*
 
 ## Not Included
 Plugins that could be added some day but were not deemed necessary
