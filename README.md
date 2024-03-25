@@ -1,5 +1,5 @@
-# NEOVIM RC
-Version control of my [neovim](https://neovim.io/) config, starting from scratch taking some plugins from [LazyVim](https://www.lazyvim.org/plugins)
+# Neovim RC
+Version control of my [neovim](https://neovim.io/) config, starting from scratch taking some plugins from [LazyVim](https://www.lazyvim.org/plugins).
 
 # Prerequisites
 1. A [Nerd Font](https://www.nerdfonts.com) *(optional)* <br>
@@ -13,8 +13,8 @@ Some of the customizations include:
 - 4 space indenting
 - No line wrap
 - Better search highlight
-- Capital `J` and `K` move line
-- Scrolling with `C-u` and `C-d` keeps cursor in middle of the screen
+- `SHIFT-J` and `SHIFT_K` move line
+- Scrolling with `CTRL-u` and `CTRL-d` keeps cursor in middle of the screen
 - Much more, please see /lua/prefs.lua
 
 # Keymaps
@@ -46,10 +46,11 @@ Plugins for coding productivity outside auto completion
 2. [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
 3. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
 4. [folke/trouble.nvim](https://github.com/folke/trouble.nvim)
-5. [echasnovski/mini.pairs](https://github.com/echasnovski/mini.pairs)
-6. [echasnovski/mini.comment](https://github.com/echasnovski/mini.comment)
+5. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+6. [echasnovski/mini.pairs](https://github.com/echasnovski/mini.pairs)
+7. [echasnovski/mini.comment](https://github.com/echasnovski/mini.comment)
     1. [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
-7. [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround)
+8. [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround)
     1. **NOTE: This plugin is very useful, but it might take a little while to get used to**
 
 ## Treesitter
@@ -59,19 +60,18 @@ Generalized color highlighting
 3. [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 4. [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
 
-## UI
+## UI 
 Plugins for a fancier UI
 1. [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify)
-2. [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim)
-3. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
-4. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-5. [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
-6. [folke/noice.nvim](https://github.com/folke/noice.nvim)
-7. [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+2. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+3. [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
+4. [folke/noice.nvim](https://github.com/folke/noice.nvim)
 
 ## Colorscheme
 Theme for neovim
-1. [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+1. [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) *default*
+2. [catppuccin/nvim](https://github.com/catppuccin/nvim)
+3. [rose-pine/neovim](https://github.com/rose-pine/neovim)
 
 ## Not Included
 Plugins that could be added some day but were not deemed necessary
