@@ -57,13 +57,10 @@ Generalized color highlighting
 3. [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
 
 ## UI (WIP)
-Plugins for a fancier Editor
+Plugins for a fancier editor
 1. [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify)
-2. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
-3. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
-4. [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
-5. [folke/noice.nvim](https://github.com/folke/noice.nvim)
-6. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+2. [folke/noice.nvim](https://github.com/folke/noice.nvim)
+3. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ## Colorscheme
 Theme for neovim
@@ -75,4 +72,8 @@ Theme for neovim
 Plugins that could be added some day but were not deemed necessary
 1. [echasnovski/mini.indentscope](https://github.com/echasnovski/mini.indentscope)
 2. [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai)
-3. [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
+3. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
+4. [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
+5. [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
+6. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+7. [nvim-telescope/telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
