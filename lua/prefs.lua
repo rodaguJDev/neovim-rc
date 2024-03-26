@@ -29,7 +29,7 @@ vim.opt.updatetime = 50
 -- 80 col grid
 vim.opt.colorcolumn = "80"
 
-vim.g.mapleader = " ";
+-- KEYBINDS
 vim.keymap.set("n", "<leader>pv", ":Ex<CR>");
 
 -- Move entire line using K and J
