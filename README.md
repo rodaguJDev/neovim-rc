@@ -40,7 +40,12 @@ Language Servers for neovim, used by linters, formatters and nvim-cmp
 ## Auto Completion (WIP)
 
 1. [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-   1. _take note of nvim-cmp numerous dependencies_
+   1. [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+   2. [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+   3. [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
+   4. [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path)
+   5. [hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
+   6. [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 2. [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
    1. [saadparwaiz1/cmp-luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
 3. [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
@@ -78,8 +83,8 @@ Better colors, very useful API and tools
 
 Plugins for a fancier editor
 
-1. [folke/noice.nvim](https://github.com/folke/noice.nvim) 
-    1. [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify)
+1. [folke/noice.nvim](https://github.com/folke/noice.nvim)
+   1. [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify)
 2. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ## Colorscheme
