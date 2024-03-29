@@ -1,6 +1,6 @@
 # Neovim RC
 
-Version control of my [neovim](https://neovim.io/) config, starting from scratch taking some plugins from [LazyVim](https://www.lazyvim.org/plugins).
+Version control of my [neovim](https://neovim.io/) awesome config.
 
 # Recomendations
 
