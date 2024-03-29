@@ -5,33 +5,54 @@ Version control of my [neovim](https://neovim.io/) config, starting from scratch
 # Recomendations
 
 1. A [Nerd Font](https://www.nerdfonts.com)
-2. A C compiler in PATH(gcc, cc or clang for example), if you're on Windows, use the x64 Native Tools Command Prompt from Visual Studio
-   1. For more information, check out [this guide](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support)
-   2. For more information on the Native Tools Command Prompt, use [this guide](https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170)
+2. A C compiler in PATH (gcc, cc or clang for example, required for treesitter)
+   1. On Windows, you may use [MSYS2](https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/)
+      or [Visual Studio's Native Tools Command Prompt](https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170)
+   2. The [treesitter guide](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support) has more ways of installing on windows
 
 # Customizations
 
 Some of the customizations include:
 
-- 4 space indenting
 - Relative line numbers
+- 4 space indenting
+- 8 line scrolloff
+- 24 bit terminal colors
+- 80 character column
+- Remove line wrapping
 - Better search highlight
-- 8 Line scrolloff
-- `SHIFT-J` and `SHIFT_K` move line up and down
-- Scrolling with `CTRL-u` and `CTRL-d` keeps cursor in middle of the screen
-- Much more, please see /lua/prefs.lua
+- Pressing `J` no longer moves the cursor to the end of the line
+- Search Next and Previous moves the mouse to the middle (using `zz`)
+- Scrolling up and down with `C-u` and `C-d` moves mouse to the middle (using `zz`)
+- For more details, see /lua/prefs.lua
+
+# Keybinds (WIP)
+
+## LSP
+
+## Auto Complete
+
+## Formatter and Linter
+
+## Telescope
+
+## Surround and Comments
+
+## Misc
+
+- Notification Dismiss: `<leader>nc`
+- Move visual line up and down: `S-J` or `S-K`
 
 # Plugins
 
 ## LSP
 
-Language Servers for neovim, used by linters, formatters and nvim-cmp
+Language Servers for neovim, used by linters, formatters and autocompletion
 
 1. [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
 2. [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
 3. [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-4. [folke/neoconf.nvim](https://github.com/folke/neoconf.nvim) (Install pending)
-5. [folke/neodev.nvim](https://github.com/folke/neodev.nvim) (Install pending)
+4. [folke/neodev.nvim](https://github.com/folke/neodev.nvim)
 
 ## Auto Completion
 
@@ -57,6 +78,7 @@ Plugins for coding productivity outside auto completion
 1. [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
    1. Install [ripgrep](https://github.com/BurntSushi/ripgrep)
    2. [nvim-telescope/telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
+   3. [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
 2. [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
 3. [folke/trouble.nvim](https://github.com/folke/trouble.nvim)
 4. [echasnovski/mini.pairs](https://github.com/echasnovski/mini.pairs)

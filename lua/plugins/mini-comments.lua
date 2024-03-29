@@ -1,10 +1,10 @@
 return {
-    { 
-        'echasnovski/mini.comment',
+    {
+        "echasnovski/mini.comment",
         version = false,
         config = function()
-            require('mini.comment').setup();
-        end 
+            require("mini.comment").setup()
+        end,
     },
-    { 'JoosepAlviste/nvim-ts-context-commentstring' }
+    { "JoosepAlviste/nvim-ts-context-commentstring" },
 }
