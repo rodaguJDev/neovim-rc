@@ -21,10 +21,6 @@ Some of the customizations include:
 - Scrolling with `CTRL-u` and `CTRL-d` keeps cursor in middle of the screen
 - Much more, please see /lua/prefs.lua
 
-# Keymaps
-
-You can read about keybinds for some plugins [here](https://www.lazyvim.org/keymaps)
-
 # Plugins
 
 ## LSP
