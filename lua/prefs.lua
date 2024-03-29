@@ -1,4 +1,4 @@
-vim.g.mapleader = " ";
+vim.g.mapleader = " "
 -- Relative line numbers
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -30,7 +30,7 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
 
 -- KEYBINDS
-vim.keymap.set("n", "<leader>pv", ":Ex<CR>");
+vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
 
 -- Move entire line using K and J
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -48,9 +48,9 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 -- <leader>y yanks to system register
-vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- Delete without overriding memory
-vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
-vim.keymap.set({"n", "v"}, "<leader>c", [["_c]])
+vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
+vim.keymap.set({ "n", "v" }, "<leader>c", [["_c]])
