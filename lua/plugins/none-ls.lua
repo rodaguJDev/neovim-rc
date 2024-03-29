@@ -1,18 +1,34 @@
 return {
 	{
+		"jay-babu/mason-null-ls.nvim",
+		event = { "BufReadPre", "BufNewFile" },
+		dependencies = {
+			"williamboman/mason.nvim",
+			"nvimtools/none-ls.nvim",
+		},
+		config = function()
+			require("mason-null-ls").setup({
+				ensure_installed = {
+					"stylua",
+					"eslint_d",
+					"prettier",
+				},
+				automatic_installation = true,
+				handlers = {},
+			})
+		end,
+	},
+	{
 		"nvimtools/none-ls.nvim",
 		config = function()
 			local null_ls = require("null-ls")
+            local useAutoFormat = true
+
 			null_ls.setup({
-				sources = {
-					null_ls.builtins.formatting.stylua,
-					null_ls.builtins.formatting.prettier,
-					null_ls.builtins.diagnostics.eslint_d,
-				},
+				sources = {},
 			})
 
 			-- Auto format
-			local useAutoFormat = true
 			if useAutoFormat then
 				vim.api.nvim_create_autocmd("BufWritePost", {
 					callback = function()
