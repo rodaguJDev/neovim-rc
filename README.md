@@ -27,7 +27,7 @@ You can read about keybinds for some plugins [here](https://www.lazyvim.org/keym
 
 # Plugins
 
-## LSP (WIP)
+## LSP
 
 Language Servers for neovim, used by linters, formatters and nvim-cmp
 
@@ -37,15 +37,13 @@ Language Servers for neovim, used by linters, formatters and nvim-cmp
 4. [folke/neoconf.nvim](https://github.com/folke/neoconf.nvim) (Install pending)
 5. [folke/neodev.nvim](https://github.com/folke/neodev.nvim) (Install pending)
 
-## Auto Completion (WIP)
+## Auto Completion
 
 1. [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-   1. [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-   2. [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
-   3. [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
-   4. [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path)
-   5. [hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
-   6. [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+   1. [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+   2. [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
+   3. [hrsh7th/cmp-path](https://github.com/hrsh7th/cmp-path)
+   4. [hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
 2. [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
    1. [saadparwaiz1/cmp-luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
 3. [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
@@ -89,7 +87,7 @@ Plugins for a fancier editor
 
 ## Colorscheme
 
-Theme for neovim
+Themes for neovim
 
 1. [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 2. [catppuccin/nvim](https://github.com/catppuccin/nvim)

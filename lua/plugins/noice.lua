@@ -1,4 +1,5 @@
 return {
+    {
     "folke/noice.nvim",
     event = "VeryLazy",
     opts = {},
@@ -21,7 +22,7 @@ return {
                 override = {
                     ["vim.lsp.util.convert_input_to_markdown_lines"] = true,
                     ["vim.lsp.util.stylize_markdown"] = true,
-                    -- ["cmp.entry.get_documentation"] = true, -- TODO: Uncomment once nvim-cmp is installed
+                    ["cmp.entry.get_documentation"] = true, -- TODO: Uncomment once nvim-cmp is installed
                 },
             },
             routes = {
@@ -37,4 +38,5 @@ return {
             },
         })
     end
+}
 }
