@@ -4,11 +4,12 @@ Version control of my [neovim](https://neovim.io/) config, starting from scratch
 
 # Recomendations
 
-1. A [Nerd Font](https://www.nerdfonts.com)
+1. A [Nerd Font](https://www.nerdfonts.com) for Lua Line
 2. A C compiler in PATH (gcc, cc or clang for example, required for treesitter)
    1. On Windows, you may use [MSYS2](https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/)
       or [Visual Studio's Native Tools Command Prompt](https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170)
    2. The [treesitter guide](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support) has more ways of installing on windows
+3. NodeJS/NPM required for downloading LSPs through Mason
 
 # Customizations
 
@@ -26,24 +27,70 @@ Some of the customizations include:
 - Scrolling up and down with `C-u` and `C-d` moves mouse to the middle (using `zz`)
 - For more details, see /lua/prefs.lua
 
-# Keybinds (WIP)
+# Keybinds
+
+Note: \<leader> is \<space> by default
 
 ## LSP
 
+- Go to variable definition: `gd`
+- Get element hover documentation: `K`
+- Open Code Action menu: `<leader>ca`
+- Rename variable: `<leader>rn`
+
 ## Auto Complete
+
+- Force open autocomplete menu: `<C-space>` _insert mode_
+- Cycle through complete options forwards: `<TAB>`
+- Cycle through complete options backwards: `<S-TAB>`
+- Select completion: `<CR>`
 
 ## Formatter and Linter
 
+- Format current buffer: `<leader>gf`
+
 ## Telescope
+
+- Open Telescope file browser: `<leader>pv`
+- Open Telescope fuzzy finder: `<leader>pf`
+- Open Telescope live grep search: `<leader>ps`
+- Open Telescope git project fuzzy finder: `<C-p>`
+
+## Telescope file browser (on normal mode)
+
+- Create file/folder: `c`
+- Delete hovered file: `d`
+- Open using system app: `o`
+- Toggle hidden files: `h`
+- Go to parent dir: `<bs>` _insert mode_
+- Go to folder browser mode: `f`
+- Check the [repo](https://github.com/nvim-telescope/telescope-file-browser.nvim) for all keybinds
 
 ## Surround and Comments
 
+- Comment line: `gcc`
+- Comment visual mode: `gc`
+- Surround with character: `sa` followed by surrond character
+  - example: WORD + `saiw"` = "WORD"
+  - works with visual mode
+- Remove surrounding: `sd` followed by surround character
+  - example: "WORD" + `sd"` = WORD
+- Replace surround: `sr` followed by surrond character
+  - example: "WORD" + `sr(` = (WORD)
+- Highlight surround
+
 ## Misc
 
+- Delete or Change without overriding memory
+  1.  `<leader>d`
+  2.  `<leader>c`
+- Yank to system clipboard: `<leader>y`
 - Notification Dismiss: `<leader>nc`
 - Move visual line up and down: `S-J` or `S-K`
 
 # Plugins
+
+Plugin Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ## LSP
 
@@ -76,7 +123,7 @@ Linter and Formatter
 Plugins for coding productivity outside auto completion
 
 1. [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-   1. Install [ripgrep](https://github.com/BurntSushi/ripgrep)
+   1. Install [ripgrep](https://github.com/BurntSushi/ripgrep) for live grep search
    2. [nvim-telescope/telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
    3. [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
 2. [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
@@ -102,6 +149,7 @@ Plugins for a fancier editor
 1. [folke/noice.nvim](https://github.com/folke/noice.nvim)
    1. [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify)
 2. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+3. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 
 ## Colorscheme
 
@@ -115,8 +163,5 @@ Themes for neovim
 
 Plugins that could be added some day but were not deemed necessary
 
-1. [echasnovski/mini.indentscope](https://github.com/echasnovski/mini.indentscope)
-2. [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai)
-3. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
-4. [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
-5. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+1. [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai)
+2. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
