@@ -21,7 +21,7 @@ Some of the customizations include:
 You can read about keybinds for some plugins [here](https://www.lazyvim.org/keymaps)
 
 # Plugins
-## LSP 
+## LSP (WIP)
 Language Servers for neovim, used by linters, formatters and nvim-cmp
 1. [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
 2. [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
@@ -44,10 +44,12 @@ Language Servers for neovim, used by linters, formatters and nvim-cmp
 Plugins for coding productivity outside auto completion
 1. [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) 
     1. Install [ripgrep](https://github.com/BurntSushi/ripgrep) 
+    2. [nvim-telescope/telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
 2. [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
 3. [folke/trouble.nvim](https://github.com/folke/trouble.nvim)
 4. [echasnovski/mini.pairs](https://github.com/echasnovski/mini.pairs)
 5. [echasnovski/mini.comment](https://github.com/echasnovski/mini.comment)
+    1. [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
 6. [echasnovski/mini.surround](https://github.com/echasnovski/mini.surround)
     1. **NOTE: This plugin is very useful, but it might take a little while to get used to**
 
@@ -57,10 +59,10 @@ Better colors, very useful API and tools
 2. [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 3. [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
 
-## UI (WIP)
+## UI 
 Plugins for a fancier editor
-1. [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify)
-2. [folke/noice.nvim](https://github.com/folke/noice.nvim)
+1. [folke/noice.nvim](https://github.com/folke/noice.nvim)
+    2. [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify)
 3. [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ## Colorscheme
@@ -75,6 +77,4 @@ Plugins that could be added some day but were not deemed necessary
 2. [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai)
 3. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
 4. [folke/which-key.nvim](https://github.com/folke/which-key.nvim)
-5. [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
 6. [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-7. [nvim-telescope/telescope-ui-select.nvim](https://github.com/nvim-telescope/telescope-ui-select.nvim)
