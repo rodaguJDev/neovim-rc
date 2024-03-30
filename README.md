@@ -4,7 +4,7 @@ Version control of my [neovim](https://neovim.io/) awesome config.
 
 # Recomendations
 
-1. A [Nerd Font](https://www.nerdfonts.com) for Lua Line
+1. A [Nerd Font](https://www.nerdfonts.com) for icon rendering
 2. A C compiler in PATH (gcc, cc or clang for example, required for treesitter)
    1. On Windows, you may use [MSYS2](https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/)
       or [Visual Studio's Native Tools Command Prompt](https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170)
@@ -29,7 +29,7 @@ Some of the customizations include:
 
 # Keybinds
 
-Note: \<leader> is \<space> by default
+Note: `<leader>` is `<space>` by default
 
 ## LSP
 
@@ -165,3 +165,4 @@ Plugins that could be added some day but were not deemed necessary
 
 1. [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai)
 2. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
+3. [REPLACEMENT FOR mini.surround](https://github.com/kylechui/nvim-surround) \[WIP]
