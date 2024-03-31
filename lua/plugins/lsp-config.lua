@@ -23,7 +23,7 @@ return {
                     "cssls",
                 },
                 handlers = {
-                    function(server) -- default handler (optional)
+                    function(server)
                         local capabilities = require("cmp_nvim_lsp").default_capabilities()
                         require("neodev").setup({})
                         require("lspconfig")[server].setup({
