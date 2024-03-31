@@ -20,6 +20,11 @@ return {
                     enable = true,
                 },
             })
+
+            -- Fold code using treesitter
+            vim.opt.foldmethod = "expr"
+            vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+            vim.opt.foldlevel = 1000
         end,
     },
     {

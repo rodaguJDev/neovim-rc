@@ -25,6 +25,7 @@ Some of the customizations include:
 - Pressing `J` no longer moves the cursor to the end of the line
 - Search Next and Previous moves the mouse to the middle (using `zz`)
 - Scrolling up and down with `C-u` and `C-d` moves mouse to the middle (using `zz`)
+- Folding is enabled, and uses the treesitter algorithm
 - For more details, see /lua/prefs.lua
 
 # Keybinds
@@ -78,6 +79,10 @@ Note: `<leader>` is `<space>` by default
 - Replace surround: `sr` followed by surrond character
   - example: "WORD" + `sr(` = (WORD)
 - Highlight surround
+
+## Folding
+
+- Fold
 
 ## Misc
 
@@ -164,5 +169,12 @@ Themes for neovim
 Plugins that could be added some day but were not deemed necessary
 
 1. [echasnovski/mini.ai](https://github.com/echasnovski/mini.ai)
-2. [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
-3. [REPLACEMENT FOR mini.surround](https://github.com/kylechui/nvim-surround) \[WIP]
+
+# Work in progress
+
+My config is not yet done, here is a list of what's to come
+
+1. Install [nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) for better code folding
+2. Installing [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
+3. Replacing mini.surround with [nvim-surround](https://github.com/kylechui/nvim-surround)
+4. DAP (Debug Adapter Protocol) support
