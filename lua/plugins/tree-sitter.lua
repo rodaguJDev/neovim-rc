@@ -21,6 +21,7 @@ return {
                 },
             })
 
+            -- TODO: This config should be handled by nvim-ufo
             -- Fold code using treesitter
             vim.opt.foldmethod = "expr"
             vim.opt.foldexpr = "nvim_treesitter#foldexpr()"

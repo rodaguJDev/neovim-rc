@@ -78,11 +78,11 @@ Note: `<leader>` is `<space>` by default
   - example: "WORD" + `sd"` = WORD
 - Replace surround: `sr` followed by surrond character
   - example: "WORD" + `sr(` = (WORD)
-- Highlight surround
 
 ## Folding
 
-- Fold
+- Toggle line fold: `za`
+- \[WIP]
 
 ## Misc
 
