@@ -22,7 +22,7 @@ return {
 		"nvimtools/none-ls.nvim",
 		config = function()
 			local null_ls = require("null-ls")
-            local useAutoFormat = true
+			local useAutoFormat = true
 
 			null_ls.setup({
 				sources = {},
