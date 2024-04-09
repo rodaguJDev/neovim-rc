@@ -25,7 +25,11 @@ return {
 			local useAutoFormat = true
 
 			null_ls.setup({
-				sources = {},
+				sources = {
+					null_ls.builtins.formatting.prettier.with({
+						extra_args = { "--tab-width", "4", "--single-quote" },
+					}),
+				},
 			})
 
 			-- Auto format
